@@ -5,6 +5,10 @@ if len(sys.argv) != 2:
     print('Usage: %s <script.gs>' % sys.argv[0])
     sys.exit(1)
 
+if sys.argv[1][-3:] != '.gs':
+    print('GrassScript files end in \'.gs\'!')
+    sys.exit(1)
+
 sys.path.insert(0, './grass-modules')
 
 with open(sys.argv[1]) as file:
