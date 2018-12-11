@@ -1,10 +1,12 @@
 # GrassScript
-### Simple Hand-Made Interpreter for a Custom Language in Python 3.7
+## A Simple Hand-Made Interpreter for a Custom Language in Python 3.7
 
 GrassScript is a free, open-source, low-level programming language created by me.
 It is highly unstable and is still in development, but it wishes to be bigger!
 
 * `Usage: python main.py <script>`
+
+Script files end in '.gs'
 
 I will be adding a REPL soon.
 
